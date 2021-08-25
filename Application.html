@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Application</title>
+    <link rel="icon" href="image/icon.png" type="image/icon type">
+    <link rel="stylesheet" type="text/css" href="css/sign in.css">
+    <link rel="stylesheet" type="text/css" href="css/application.css">
+  </head>
+  <body>
+    <h1>APPLICATION FORM</h1>
+    <form class="modal-content animate">
+      <div class="container">
+        <div class="form">
+          <label for="fullname"><b>01. Full Name:</b></label>
+          <input type="text" placeholder="     Enter full name" name="fullname" required>
+        </div>
+        <div class="form">
+          <label for="initialname"><b>02. Name With Initial:</b></label>
+          <input type="text" placeholder="     Enter name with initial" name="initialname" required>
+        </div>
+        <div class="form">
+          <label for="contactno"><b>03. Contact Number:</b></label>
+          <input type="number" placeholder="     Enter contact nomber" name="contactno" required>
+        </div>
+        <div class="form">
+          <label for="email"><b>04. Email Address:</b></label>
+          <input type="email" placeholder="     Enter email address" name="email" required>
+        </div>
+        <div class="form">
+          <label for="address"><b>05. Address:</b></label>
+          <input type="text" placeholder="     Enter address" name="address" required>
+        </div>
+        <div class="form">
+          <label for="dob"><b>06. Date Of Birth:</b></label>
+          <input type="date" placeholder="     Enter date of birth" name="dob" required>
+        </div>
+        <div class="form">
+          <label for="nic"><b>07. NIC No:</b></label>
+          <input type="text" placeholder="     Enter NIC no" name="nic" required>
+        </div>
+        <div class="form">
+          <label for="gender"><b>08. Gender:</b></label><br/>
+          <input type="radio" value="male" name="gender"><b>male</b>
+          <input type="radio" value="female" name="gender"><b>Fmale</b>
+          <input type="radio" value="Undisclosed" name="gender"><b>Undisclosed</b>
+        </div>
+        <div class="form">
+          <label for="course"><b>09. Course:</b></label>
+          <select>
+            <option value="UI/UX Designer">UI/UX Designer</option>
+            <option value="3D Modeling Designer">3D Modeling Designer</option>
+            <option value="Fashion Designer">Fashion Designer</option>
+            <option value="software Engineering">Java Programming and Software Engineering</option>
+            <option value="Full Stack Clude Developer">Full Stack Clude Developer</option>
+            <option value="Full Stack Web Developer">Full Stack Web Developer</option>
+          </select>
+        </div>
+        <div class="form">
+          <label for="ol"><b>10. O/L Results:</b></label>
+          <ul>
+            <li><b>Maths  :</b><select>
+              <option value="a">A</option>
+              <option value="b">B</option>
+              <option value="c">C</option>
+              <option value="s">S</option>
+              <option value="w">W</option>
+            </select></li>
+            <li><b>English:</b><select>
+              <option value="a">A</option>
+              <option value="b">B</option>
+              <option value="c">C</option>
+              <option value="s">S</option>
+              <option value="w">W</option>
+            </select></li>
+          </ul>
+        </div>
+        <div class="form">
+          <label for="ol"><b>11. A/L Subject Stream:</b></label>
+          <select>
+            <option value="Maths">Maths</option>
+            <option value="Bio">Bio</option>
+            <option value="Commerce">Commerce</option>
+            <option value="Technology">Technology</option>
+            <option value="Art">Art</option>
+          </select>
+        </div>
+        <div class="form">
+          <label for="ol"><b>12. A/L Subject Results:</b></label>
+          <ul>
+            <li><b>Subject 01 :</b>
+            <input type="s1" placeholder="     Enter Subject" name="s1" required>
+            <select>
+              <option value="a">A</option>
+              <option value="b">B</option>
+              <option value="c">C</option>
+              <option value="s">S</option>
+              <option value="w">W</option>
+            </select></li>
+            <li><b>Subject 02 :</b>
+            <input type="s2" placeholder="     Enter Subject" name="s2" required>
+            <select>
+              <option value="a">A</option>
+              <option value="b">B</option>
+              <option value="c">C</option>
+              <option value="s">S</option>
+              <option value="w">W</option>
+            </select></li>
+            <li><b>Subject 03 :</b>
+            <input type="s3" placeholder="     Enter Subject" name="s3" required>
+            <select>
+              <option value="a">A</option>
+              <option value="b">B</option>
+              <option value="c">C</option>
+              <option value="s">S</option>
+              <option value="w">W</option>
+            </select></li>
+          </ul>
+        </div>
+        <div class="form">
+          <label for="nicscan"><b>13. Scan Copy of NIC:</b></label>
+          <input type="file" name="NIC" required>
+        </div>
+        <div class="form">
+          <label for="certificate"><b>13. Other Certificates:</b></label>
+          <input type="file" name="NIC" required>
+        </div>
+        <input type="reset" value="reset" class="cancel">
+          <button type="submit" formaction="Homepage.html" >Submit</button>
+        <div class="form">
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+        </div>  
+        <div class="contain">
+          <button class="cancel" onclick="goBack()">Cancel</button>
+          <script>
+            function goBack() {
+              window.history.back();
+            }
+          </script>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

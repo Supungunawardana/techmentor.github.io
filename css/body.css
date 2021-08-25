@@ -1,0 +1,104 @@
+.heading{
+    overflow: hidden;
+    padding: 20px 20px;
+}
+
+.heading h1{
+    color: rgb(21, 144, 245);
+    text-align:left;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 20px;
+    float: left; 
+}
+
+.coursephoto{
+    overflow: hidden;
+    padding: 20px 50px;
+
+}
+.coursephoto img{
+    width: 200px;
+    height: 250px;
+    padding-left: 10px;
+}
+
+.coursephoto img:hover{
+    box-shadow: 0 12px 10px 0 rgba(48, 48, 48, 0.24),0 10px 50px 0 rgba(48, 48, 48, 0.19);
+    border-radius: 30px;
+}
+
+.news{
+    overflow: hidden;
+    padding: 20px 60px;
+}
+.news img{
+    width: 400px;
+    height: 200px;
+    padding-left: 10px;
+    border-radius: 30px;
+}
+
+.news img:hover{
+    box-shadow: 0 12px 10px 0 rgba(48, 48, 48, 0.24),0 10px 50px 0 rgba(48, 48, 48, 0.19);
+    border-radius: 30px;
+}
+
+.news a.title1{
+    text-align: center;
+    padding-left: 75px;
+    padding-right: 80px;
+    color: rgb(65, 66, 66); 
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.news a.title2{
+    text-align: center;
+    padding-right: 65px;
+    color: rgb(65, 66, 66); 
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.news a.title3{
+    text-align: center;
+    padding-right: 10px;
+    color: rgb(65, 66, 66); 
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color:rgba(127, 255, 212, 0.555);
+    color:rgb(63, 65, 65);
+    text-decoration: none;
+}
+
+footer a{
+    color: rgb(21, 144, 245);
+    text-decoration: none;
+}
+
+.offer{
+    overflow: hidden;
+    margin: 20px 20px;
+    padding: 40px 40px;
+    background-color:rgb(21, 144, 245);
+    align-items: center;
+    border-radius: 25px;
+}
+
+.offer a{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(48, 48, 48);
+    padding: 0px 100px;
+}

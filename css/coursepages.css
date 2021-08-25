@@ -1,0 +1,78 @@
+.coursecover{
+    overflow: hidden;
+    padding: 10px 10px;
+}
+
+.coursecover img{
+    width: 1330px;
+    height: 320px;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.info{
+    overflow: hidden;
+    padding: 10px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info h1{
+    color: rgb(22, 144, 245);
+    text-decoration: none;
+    line-height: 20px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.info p{
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+    text-align: justify;
+
+}
+
+.apply{
+    overflow: hidden;
+    padding: 40px 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.apply a:hover{
+    box-shadow: 0 12px 10px 0 rgba(0,0,0,0.24),0 10px 20px 0 rgba(0,0,0,0.19);
+}
+
+.apply a{
+    width: 50px;
+    padding: 20px 75px;
+    background-color: rgb(22, 144, 245);
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color:rgba(127, 255, 212, 0.555);
+    color:rgb(63, 65, 65);
+    text-decoration: none;
+}
+
+footer a{
+    color: rgb(21, 144, 245);
+    text-decoration: none;
+}
+
+table {
+    width:100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
